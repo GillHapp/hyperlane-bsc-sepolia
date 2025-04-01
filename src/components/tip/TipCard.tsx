@@ -4,7 +4,7 @@ import { links } from '../../consts/links';
 import { Card } from '../layout/Card';
 
 export function TipCard() {
-  const [show, setShow] = useState(config.showTipBox);
+  const [show] = useState(config.showTipBox);
   if (!show) return null;
   return (
     <Card className="w-100 p-2 sm:w-[31rem]">
